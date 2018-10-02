@@ -44,6 +44,7 @@ SELECT user; -- select the current user
 	
 SELECT * FROM sys.fn_my_permissions('securityII','database'); -- get the current permission for user in securityII database
 SELECT * FROM sys.fn_my_permissions('saucer','schema'); -- get the current permission on saucer schema
+SELECT * FROM sys.fn_my_permissions('tests','object'); -- check the permission for table "tests"
 
 
 SELECT * FROM sys.objects AS o -- get the schema details for saucer schema
@@ -87,4 +88,6 @@ join sys.database_principals as pri2
 on pri2.principal_id = rm.member_principal_id
 where pri2.name = 'swaglap\raygun'
  
+ ************************************** Execution Context *************************************
+ execute as login = 'swaglap\gort' -- impersonlization, OBO (on behalf of) server principal
  runas /profile /user:swaglap\workerbee "C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\Ssms.exe"
