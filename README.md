@@ -10,6 +10,7 @@ For more details on markdown visit https://guides.github.com/features/mastering-
 
 * Item 1
 * Item 2
+* Need to be done online once again
   * Item 2a
   * Item 2b
 
@@ -33,4 +34,5 @@ For more details on markdown visit https://guides.github.com/features/mastering-
 First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+Content in the first column |  ability to combine results from related rows from multiple tables is an important part of relational database system design. In SQL Server, this is accomplished with the SQL join clause.  It’s the nature of traditional relational database systems where some table contains information related to other tables with a common key value. Using a SQL join, you can easily perform queries on rela
+content in 3rd column | yola chaddi
