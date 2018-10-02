@@ -1,0 +1,2 @@
+# TSql
+Useful sql commands
